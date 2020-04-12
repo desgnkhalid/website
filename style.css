@@ -10,7 +10,7 @@ body {
   font-family:sans-serif;
 }
 
-a,h3,h1,h3,h4,h5,h6{
+a,h3,h1,h3,h4,h5,h6,p{
 	font-family:sans-serif;
 }
 
@@ -138,6 +138,31 @@ li > a:only-child:after { content: ''; }
 	text-align:center;
 	outline: none;
  }
+ 
+ .top-header{
+	 float:right;
+	 margin:0;width:100%;
+	 height:30rem;
+	background-image: url(image/d.jpg);
+     height: 80vh;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+/***********************************top-header*******THIS TOP HEADER**************************************************/	
+	 .top-header h4{
+	  text-align:center;
+	  font-size:20px;color:#DDD;
+	  }
+	  
+	  .top-header p{
+	 font-size:20px;text-align:center;
+	  color:#FFF;margin-left:17%;
+	  }
+ 
+ 
+ 
+ 
  
  
  /*******************************************login-box*********************************/
@@ -448,7 +473,7 @@ position:absolute;
 /*********************************************f0oter***********************************/
 .footer{
     width: 96%;
-    height:450px;
+    height:500px;
     background-color: rgb(54, 54, 53);
     margin-top: 15px;
 	margin-left:2%;
@@ -550,16 +575,6 @@ textarea
 }
 
 
-.socialmedia {
-	display:inline-block;
-	padding:0 0 2rem;
-}
-
-.socialmedia i{
-	margin:10px;
-	color:#fff;
-}
-
 
 .contact h2
 {
@@ -584,15 +599,16 @@ textarea
 }
 
 .social{
-margin-top:3rem;
-margin-left:1rem;
-width:70%;
+	float:center;
+margin-top:16rem;
+margin-left:35%;
+width:90%;
 }
 
 .social i{
 font-size:30px;
 margin-left:40px;
-color:#000;
+color:#fff;
 }
 
 
@@ -664,93 +680,74 @@ nav { margin: 0; }
 		.search input[type="submit"]{
 	    font-size:12px;height:40px;width:50px;}
 		
-	  .box{
-       position:absolute;
-       float: left; margin-left:3%;
-       margin-top: 1rem;
-       width:92%;
-      }
-	  .box img{
-	  margin-left:42%;
-      }
-	  
-	  .about{
-      text-align: center;margin-left:4%;
-       width:90%;
-      }
-	  
-	   .his .parent{height:35rem; 
-       margin-bottom: 10px;margin-left:1%;}
+	    .box{float: left; margin-left:3%;
+        margin-top: 1rem;width:94%}
 	   
-	  .his h1{padding-top: 5.5rem}
-	  .his .parent .tow p{ padding:5px; line-height: 25px;
-       margin-left:10px;}
+	    .box img{margin-left:42%}
 	  
-	  .his .parent .one{width:100%;margin:0}
-	  .blog{width:100%;margin:0}
-	  .his .parent .one img{width: 100%; height: 240px;}
+	    .about{text-align: center;margin-left:4%;width:90%;}
+	  
+	    .his .parent{height:35rem; 
+         margin-bottom: 10px;margin-left:1%;}
+	   
+	    .his h1{padding-top: 5.5rem}
+	    .his .parent .tow p{ padding:5px; line-height: 25px;
+         margin-left:10px;}
+	  
+	    .his .parent .one{width:100%;margin:0}
+	    .blog{width:100%;margin:0}
+	    .his .parent .one img{width: 100%; height: 240px;}
 
-      .his .parent .tow{width: 90%;}
-	  .his .parent .tow p{padding:5px; line-height: 25px;
-      margin-left:10px;}
+        .his .parent .tow{width: 90%}
+	    .his .parent .tow p{padding:5px; line-height: 25px;
+         margin-left:10px;}
 	  
+	    .blog{width:98%;margin-left:1%;padding:0}
+        .blog .part{width:96%;margin-bottom: 2%}
+	    .part img{width:96%;margin-left:1%}
+        .blog .part p{line-height: 1.7;width:92%;margin-left:1%;}
 	  
-	  .blog{width:98%;margin-left:1%;padding:0}
-      .blog .part{width:96%;margin-bottom: 2%;}
-	  .part img{width:96%;margin-left:1%;}
-      .blog .part p{line-height: 1.7;width:92%;margin-left:1%}
-	  
-	  .writting{
+	    .writting{
 		display:block;padding:5px 0px;margin-left:5%;
-		width:86%;color:white;}
+		width:86%;color:white}
 	
-	 .writting.heading{width:88%; margin-left:0;}
+	    .writting.heading{width:88%; margin-left:0;}
 	 
-	 .page-wrapper{width:95%;left:1%;border:none;padding:0 2px;}
-     .post-slider .next{right:0;}
-     .post-slider .prev{left:0;}
+	    .page-wrapper{width:94%;left:2%;border:none;padding:0 2px;}
+        .post-slider .next{right:0}
+        .post-slider .prev{left:0}
+	    .post-slider .post-wrapper .post .post-info{
+	     height:220px;padding:0px}
+	 
+	    .post-slider .post-wrapper .post .post-info h5 a{
+	    font-size:13.4px;padding:0;}
 	
-	 .post-slider .post-wrapper .post .post-info h5 a{
-	 font-size:16px;padding:0;}
-	
-	.post-slider .post-wrapper{height:280px;margin:15px auto;
-	 padding:3px 0px 3px 0px;}
+	    .post-slider .post-wrapper{height:240px;margin:10px auto;
+	     padding:0px 5px 0px 5px;}
 
-    .post-slider .post-wrapper .post{
-	height:200px;margin:0 8px;
-	border:1px solid #888;
-    }
+        .post-slider .post-wrapper .post{height:122px;margin:0 10px;}
+		.post-slider .post-wrapper .post img{height:120px;}
 	
-	
-	
-	
-	
-	 .footer {
-	  width:97.5%;
-	  margin:1%;
-	  height:58rem;
-	  }
-	  .footer .footer-foorm{width: 90%;
-      margin:0.8rem;margin-bottom:6rem;
-      }
-	  footer-address h2{
-		  margin-right:;
-	  }
-	
-	  .footer-address{width:208px;}
-	  .footer-address h2{font-size:15px}
-      .btn1{width: 10rem; margin-left: 8rem;
-      margin-top: 2.5rem;margin-bottom:2rem;}
-      
-	  .footer .footer-foorm input{
-	  width:100%;height:36px;margin-top:1%;
-      }
-	  textarea{
-      height:15rem;
-       padding:0;
-      }
+	    .footer { width:97.5%;margin:1%;height:62rem;}
+	    .footer .footer-foorm{width: 90%;
+         margin:0.8rem;margin-bottom:6rem;}
 	  
-	}
+	    .footer-address{width:208px;}
+	    .footer-address h2{font-size:15px}
+        .btn1{width: 10rem; margin-left: 8rem;
+          margin-top: 2.5rem;margin-bottom:2rem;}
+      
+	    .footer .footer-foorm input{
+	    width:100%;height:36px;margin-top:1%}
+	  
+	    textarea{height:15rem;padding:0}
+		
+		.top-header{height: 80vh;}
+		.social{float:left;margin-top:4rem;
+         margin-left:40px;width:70%}
+	
+}
+
 
 @media all and (max-width : 330px) {
 
